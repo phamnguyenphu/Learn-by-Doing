@@ -9,11 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     // MARK: - PROPERTY
-    
+
     // MARK: - BODY
 
     var body: some View {
-        CardView()
+        CardView(card: cardData[1])
     }
 }
 
