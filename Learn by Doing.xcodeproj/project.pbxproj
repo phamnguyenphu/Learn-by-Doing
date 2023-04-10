@@ -14,6 +14,8 @@
 		ABD0553F29E3FC8500455649 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD0553E29E3FC8500455649 /* Launch Screen.storyboard */; };
 		ABD0554629E407FE00455649 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD0554529E407FE00455649 /* CardView.swift */; };
 		ABD0554829E40A5D00455649 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD0554729E40A5D00455649 /* CardModel.swift */; };
+		ABD0554A29E40C6200455649 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD0554929E40C6200455649 /* CardData.swift */; };
+		ABD0554C29E410D400455649 /* ButtonCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD0554B29E410D400455649 /* ButtonCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		ABD0553E29E3FC8500455649 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		ABD0554529E407FE00455649 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		ABD0554729E40A5D00455649 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		ABD0554929E40C6200455649 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		ABD0554B29E410D400455649 /* ButtonCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +84,7 @@
 		ABD0554029E3FC9700455649 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				ABD0554729E40A5D00455649 /* CardModel.swift */,
+				ABD0554929E40C6200455649 /* CardData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -88,6 +92,7 @@
 		ABD0554129E3FCA300455649 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				ABD0554729E40A5D00455649 /* CardModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -103,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				ABD0554529E407FE00455649 /* CardView.swift */,
+				ABD0554B29E410D400455649 /* ButtonCardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,6 +193,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD0554C29E410D400455649 /* ButtonCardView.swift in Sources */,
+				ABD0554A29E40C6200455649 /* CardData.swift in Sources */,
 				ABD0553329E3F68500455649 /* ContentView.swift in Sources */,
 				ABD0554829E40A5D00455649 /* CardModel.swift in Sources */,
 				ABD0554629E407FE00455649 /* CardView.swift in Sources */,
