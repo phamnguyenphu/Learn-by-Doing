@@ -14,12 +14,14 @@ struct ButtonCardView: View {
     let buttonColor: [Color]
 
     var hapticImpact = UIImpactFeedbackGenerator(style: .heavy)
+    @State private var showAlert: Bool = false
 
     // MARK: - BODY
 
     var body: some View {
         Button {
             hapticImpact.impactOccurred()
+            showAlert.toggle()
         } label: {
             HStack {
                 Text(buttonName.uppercased())
@@ -32,6 +34,13 @@ struct ButtonCardView: View {
             .padding(.horizontal, 25)
             .background(.linearGradient(colors: buttonColor, startPoint: .leading, endPoint: .trailing))
             .clipShape(Capsule())
+        }
+        .alert(isPresented: $showAlert) {
+            Alert(
+                title: Text(buttonName),
+                message: Text("card.message"),
+                dismissButton: .default(Text("OK"))
+            )
         }
     }
 }

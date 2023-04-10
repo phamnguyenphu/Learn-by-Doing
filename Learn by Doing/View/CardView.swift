@@ -16,7 +16,6 @@ struct CardView: View {
     @State private var moveDownward: Bool = false
     
     
-    
     // MARK: - BODY
     
     var body: some View {
