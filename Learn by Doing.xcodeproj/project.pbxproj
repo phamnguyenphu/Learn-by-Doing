@@ -12,6 +12,8 @@
 		ABD0553529E3F68600455649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD0553429E3F68600455649 /* Assets.xcassets */; };
 		ABD0553829E3F68600455649 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD0553729E3F68600455649 /* Preview Assets.xcassets */; };
 		ABD0553F29E3FC8500455649 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD0553E29E3FC8500455649 /* Launch Screen.storyboard */; };
+		ABD0554629E407FE00455649 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD0554529E407FE00455649 /* CardView.swift */; };
+		ABD0554829E40A5D00455649 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD0554729E40A5D00455649 /* CardModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		ABD0553429E3F68600455649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABD0553729E3F68600455649 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ABD0553E29E3FC8500455649 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		ABD0554529E407FE00455649 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		ABD0554729E40A5D00455649 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 		ABD0554029E3FC9700455649 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				ABD0554729E40A5D00455649 /* CardModel.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -97,6 +102,7 @@
 		ABD0554329E3FCDC00455649 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				ABD0554529E407FE00455649 /* CardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,6 +188,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABD0553329E3F68500455649 /* ContentView.swift in Sources */,
+				ABD0554829E40A5D00455649 /* CardModel.swift in Sources */,
+				ABD0554629E407FE00455649 /* CardView.swift in Sources */,
 				ABD0553129E3F68500455649 /* Learn_by_DoingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
