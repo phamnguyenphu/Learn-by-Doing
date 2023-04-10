@@ -13,10 +13,14 @@ struct ButtonCardView: View {
     let buttonName: String
     let buttonColor: [Color]
 
+    var hapticImpact = UIImpactFeedbackGenerator(style: .heavy)
+
     // MARK: - BODY
 
     var body: some View {
-        Button {} label: {
+        Button {
+            hapticImpact.impactOccurred()
+        } label: {
             HStack {
                 Text(buttonName.uppercased())
                     .fontWeight(.heavy)
